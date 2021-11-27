@@ -1,0 +1,108 @@
+"PHP Error"
+"PHP Parse error"
+"PHP Warning"
+boot.ini
+ext:action
+ext:backup
+ext:bak
+ext:bkf
+ext:bkp
+ext:cfg
+ext:cnf
+ext:conf
+ext:csv
+ext:dbf
+ext:do
+ext:doc
+ext:docx
+ext:env
+ext:inf
+ext:ini
+ext:log
+ext:mdb
+ext:odt
+ext:old
+ext:ora
+ext:pdf
+ext:php intitle:phpinfo "published by the PHP Group"
+ext:pps
+ext:ppt
+ext:pptx
+ext:psw
+ext:rdp
+ext:reg
+ext:rtf
+ext:sql
+ext:struts
+ext:swf
+ext:sxw
+ext:txt
+ext:xml
+intext:"incorrect syntax near"
+intext:"sql syntax near"
+intext:"syntax error has occurred"
+intext:"unexpected end of SQL command"
+intext:"Warning: mysql_connect()"
+intext:"Warning: mysql_query()"
+intext:"Warning: pg_connect()"
+intitle:"Dashboard [Jenkins]"
+intitle:index.of
+intitle:Signup
+intitle:traefik inurl:8080/dashboard
+inurl:".git" -github
+inurl:.htaccess
+inurl:backdoor
+inurl:cmd
+inurl:config
+inurl:install
+inurl:license
+inurl:phpinfo.php
+inurl:r=http
+inurl:readme
+inurl:redir
+inurl:redirect
+inurl:register
+inurl:return
+inurl:setup
+inurl:shell
+inurl:signup
+inurl:src=http
+inurl:url
+inurl:wp-content
+inurl:wp-includes
+inurl:wso
+passwd
+shadow
+site:*.atlassian.net
+site:.s3.amazonaws.com
+site:amazonaws.com
+site:bitbucket.org
+site:codebeautify.org
+site:codepad.co
+site:codepen.io
+site:codeshare.io
+site:coggle.it
+site:controlc.com
+site:github.com
+site:gitlab.com
+site:gitter.im
+site:heypasteit.com
+site:ideone.com
+site:jsdelivr.com
+site:jsfiddle.net
+site:justpaste.it
+site:libraries.io
+site:linkedin.com employees
+site:npm.runkit.com
+site:npmjs.com
+site:papaly.com
+site:pastebin.com
+site:productforums.google.com
+site:repl.it
+site:replt.it
+site:scribd.com
+site:sharecode.io
+site:stackoverflow.com
+site:storage.googleapis.com
+site:trello.com
+site:ycombinator.com
