@@ -21,9 +21,6 @@ So, what are you waiting for Go! Go! Go! :boom:
 - [💿 Installation:](#-installation)
 - [Usage:](#usage)
 - [Example Usage:](#example-usage)
-- [Axiom Support: :cloud:](#axiom-support-cloud)
-- [Sample video:](#sample-video)
-- [:fire: Features :fire:](#fire-features-fire)
 - [Mindmap/Workflow](#mindmapworkflow)
 
 ---
@@ -38,59 +35,53 @@ cd bug_hunter/
 
 ```
 
-<details>
- <br><br>
- <summary> :point_right: Click here to view default config file :point_left: </summary>
- 
-</details>
- 
 # Usage:
- 
+
 **TARGET OPTIONS**
- 
-| Flag | Description |
-|------|-------------|
-| -d | Single Target domain *(example.com)*  |
-| -l | List of targets *(one per line | name | email | domain)* |
-| -n | Single Target name |
-| -e | Single Target email |
-| -x | Exclude subdomains list *(Out Of Scope)* |
-| -i | Include subdomains list *(In Scope)* |
- 
+
+| Flag | Description                              |
+| ---- | ---------------------------------------- | ---- | ----- | --------- |
+| -d   | Single Target domain _(example.com)_     |
+| -l   | List of targets \*(one per line          | name | email | domain)\* |
+| -n   | Single Target name                       |
+| -e   | Single Target email                      |
+| -x   | Exclude subdomains list _(Out Of Scope)_ |
+| -i   | Include subdomains list _(In Scope)_     |
+
 **MODE OPTIONS**
- 
-| Flag | Description |
-|------|-------------|
-| -r | Recon - Full recon process (without attacks like sqli,ssrf,xss,ssti,lfi etc.) |
-| -a | All - Perform osint, recon and all active attacks |
-| -P | OSINT - Performs an OSINT scan (no subdomain enumeration and attacks) |
-| -h | Help - Show this help menu |
- 
+
+| Flag | Description                                                                   |
+| ---- | ----------------------------------------------------------------------------- |
+| -r   | Recon - Full recon process (without attacks like sqli,ssrf,xss,ssti,lfi etc.) |
+| -a   | All - Perform osint, recon and all active attacks                             |
+| -P   | OSINT - Performs an OSINT scan (no subdomain enumeration and attacks)         |
+| -h   | Help - Show this help menu                                                    |
+
 **GENERAL OPTIONS**
- 
-| Flag | Description |
-|------|-------------|
-| -x | exclude subdomain from file  |
-| -i | include subdomain from file |
-| -o |  Output directory |
-| -N |  turn off notification |
- 
+
+| Flag | Description                 |
+| ---- | --------------------------- |
+| -x   | exclude subdomain from file |
+| -i   | include subdomain from file |
+| -o   | Output directory            |
+| -N   | turn off notification       |
+
 # Example Usage:
- 
+
 **To perform a full recon on single target**
- 
+
 ```bash
 ./reconftw.sh -d target.com -r
 ```
- 
+
 **To perform a full recon on a list of targets**
- 
+
 ```bash
 ./reconftw.sh -l sites.txt -r -o /output/directory/
 ```
- 
+
 **Perform all steps (whole recon + all attacks)**
- 
+
 ```bash
 ./reconftw.sh -d target.com -a
 ```
