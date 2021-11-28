@@ -1,0 +1,6 @@
+deinit
+weak self
+strongSelf
+guard
+let
+self

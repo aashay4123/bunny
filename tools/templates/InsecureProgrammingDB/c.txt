@@ -1,0 +1,16 @@
+gets
+sprintf //mitigation: snprintf
+strcpy //mitigation: strlcpy
+malloc
+calloc
+realloc
+aligned_alloc
+atoi
+atol
+memset
+strcat
+scanf
+puts
+getenv
+putenv
+volatile
