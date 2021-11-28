@@ -187,19 +187,6 @@ cd bug_hunter/
 
 `./bug_hunter.sh --domain avito.ru /opt/target/avito.ru -full`
 
-## Tools useds
-
-2. VHostScan https://github.com/codingo/VHostScan
-3. Subfinder https://github.com/projectdiscovery/subfinder
-4. Assetfinder https://github.com/tomnomnom/assetfinder
-5. Httpx https://github.com/projectdiscovery/httpx
-6. Waybackurls https://github.com/tomnomnom/waybackurls
-7. Gau https://github.com/lc/gau
-8. Git-hound https://github.com/tillson/git-hound
-9. Gf https://github.com/tomnomnom/gf
-10. Gf-pattern https://github.com/1ndianl33t/Gf-Patterns
-11. Nuclei https://github.com/projectdiscovery/nuclei
-12. Nuclei-templets https://github.com/projectdiscovery/nuclei-templates
 
 ## workflow
 
@@ -225,4 +212,3 @@ cd bug_hunter/
 1. add credentials for CloudUnflare
 2. add burpcollaborator for jaeles
 
-# Credit open source repository used
